@@ -122,7 +122,7 @@ def main():
     check_pybind11()
     check_git_submodules()
 
-    hack_distutils()
+    hack_distutils(debug=True)
     conf = get_config(get_config_schema(),
             warn_about_no_config=False)
 

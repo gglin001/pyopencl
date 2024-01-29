@@ -71,3 +71,6 @@ wheelhouse
 
 memray-*.bin
 memray-*.html
+
+compile_commands.json
+pyopencl/_cl.pyi
